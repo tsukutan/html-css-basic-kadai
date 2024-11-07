@@ -23,7 +23,7 @@ h1 {
 }
 
 main {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 #parent {
@@ -45,7 +45,7 @@ h2 {
   border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
-h2 ::before {
+h2::before {
   content: "●";
   color: rgb(239, 111, 139);
 }
@@ -94,6 +94,7 @@ a:hover {
 .contents img {
   width: 50%;
 }
+
 
 
 
